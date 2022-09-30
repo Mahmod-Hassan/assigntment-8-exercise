@@ -1,0 +1,57 @@
+.aside {
+    padding: 10px;
+    grid-area: a;
+    background-color: white;
+}
+
+.my-info img {
+    width: 80px;
+    float: left;
+    border-radius: 40%;
+    overflow: auto;
+}
+
+.my-info h2 {
+    font-size: 20px;
+}
+
+.my-info strong {
+    font-size: 14px;
+}
+
+.add-a-break h2 {
+    text-align: left;
+    margin-top: 100px;
+}
+
+.break-time {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f5;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+.break-time button {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid darkgreen;
+}
+
+.details h4 {
+    background-color: #f0f0f5;
+    padding: 20px 5px;
+    border-radius: 10px;
+}
+
+.activity-completed {
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}

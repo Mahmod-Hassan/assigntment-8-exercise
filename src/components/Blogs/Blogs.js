@@ -1,17 +1,32 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Blog from '../Blog/Blog';
 import './Blogs.css';
-import icon from '../../images/icon.png';
 
-const Blogs = () => {
+const Blogs = ({ handleAddToList }) => {
+    const [blogs, setBlogs] = useState([]);
+    useEffect(() => {
+        fetch('data.json')
+            .then(res => res.json())
+            .then(data => setBlogs(data))
+    }, [])
+
+
     return (
-        <div className='blogs-container'>
-            <div className='blog-title'>
-                <img src={icon} alt="" />
-                <h1>BURN-YOUR-FAT</h1>
-            </div>
-            <h3>Select todays exercise</h3>
 
+        <div className='blogs-container'>
+            {
+                blogs.map(blog =>
+                    <Blog
+                        key={blog.id}
+                        blog={blog}
+                        handleAddToList={handleAddToList}
+                    >
+
+                    </Blog>
+                )
+            }
         </div>
+
     );
 };
 

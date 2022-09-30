@@ -1,50 +1,50 @@
 [
     {
         "id": "image-1",
-        "img": "./images/crunches.jpg",
+        "img": "https://media.istockphoto.com/photos/increasing-back-shoulder-and-arm-strength-picture-id1002863304?k=20&m=1002863304&s=612x612&w=0&h=C6cRS8WgGfLpBoNqXHlDKd3t0vbiboCI_pVveeP7EnM=",
         "name": "Crunches",
         "details": "This is a fat burning exercise. When these exercises are performed, the rectus abdominus and the oblique muscles are tightened.",
         "age": "20-35",
-        "time": "20 s"
+        "time": "20"
     },
     {
         "id": "image-2",
-        "img": "./images/cycling.jpg",
+        "img": "https://media.istockphoto.com/photos/cycling-race-picture-id1135508703?k=20&m=1135508703&s=612x612&w=0&h=7PGP0qk3JnaD4tYXdrizP3ymKFlj6Tu5r65lCTtFHPo=",
         "name": "Cycling",
         "details": "Cycling deacrese you body fat level. Increased muscle strength and flexibility and prevent you from many dieases",
         "age": "10-30",
-        "time": "30 min"
+        "time": "30"
     },
     {
         "id": "image-3",
-        "img": "./images/jumping-jack-.jpg",
+        "img": "https://media.istockphoto.com/photos/asian-male-doing-exercise-at-home-to-stay-healthy-on-new-normal-picture-id1277135311?k=20&m=1277135311&s=612x612&w=0&h=Bg-o0cRaUCMGVJaVr_NuEdGyoOZX2wsBLbkuUYgrwok=",
         "name": "Jumping Jacks",
         "details": "This is most powerful exerice to lost weight.Jumping jacks work all the major muscles in the lower body, strengthening your glutes, hamstrings, quads, hips, calves, and shins.",
         "age": "15-45",
-        "time": "30 s"
+        "time": "30"
     },
     {
         "id": "image-4",
-        "img": "./images/mountain-climbers.jpg",
+        "img": "https://media.istockphoto.com/photos/strong-athletic-fit-man-in-tshirt-and-shorts-is-doing-mountain-a-picture-id1172739920?k=20&m=1172739920&s=612x612&w=0&h=h1gRtShQT-6fMbN-i0AX51mNh3unhy9fgbgcofwZiz0=",
         "name": "Mountain Climber",
         "details": "Mountain climbers are an effective way of strengthening your arms, back, shoulders, core and legs.",
         "age": "18-35",
-        "time": "40 s"
+        "time": "40"
     },
     {
         "id": "image-5",
-        "img": "./images/russian-twist.jpg",
+        "img": "https://media.istockphoto.com/photos/strong-man-doing-exercise-with-med-ball-photo-of-man-perfect-physique-picture-id1221376800?k=20&m=1221376800&s=612x612&w=0&h=p8NkSoyOkADpnlLlrB2thGPODotQsGCJzR4bptPPByY=",
         "name": "Russian Twist",
         "details": "One of the best benefits of Russian twists is it whittles away the side fat. Russian twists are great calorie burners.",
         "age": "20-25",
-        "time": "25 s"
+        "time": "25"
     },
     {
         "id": "image-6",
-        "img": "./images/sit-up.jpg",
+        "img": "https://media.istockphoto.com/photos/athletic-man-doing-curl-ups-exercise-at-home-picture-id509421978?k=20&m=509421978&s=612x612&w=0&h=_o_IU1GUCvY8gdhx1R94TI-xWo0nWjvuPcFAhwiRTAY=",
         "name": "Sit Up",
         "details": "Sit-ups help you build a strong core to ward off injury, help with your posture, and boost your athletic performance",
         "age": "20-40",
-        "time": "50 s"
+        "time": "50"
     }
 ]

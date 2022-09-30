@@ -1,7 +1,32 @@
 .main-container {
-    background-color: gainsboro;
     padding: 0 2vw 0 5vw;
     display: grid;
-    grid-template-columns: 3fr 1fr;
-    align-items: center;
+    grid-gap: 30px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+        'h h h h h h h h h a a a'
+        'b b b b b b b b b a a a';
+}
+
+@media screen and ((min-width:501px)and (max-width : 850px)) {
+    .main-container {
+        grid-template-areas:
+            'h h h h h h h h h a a a'
+            'b b b b b b b b b a a a';
+        padding: 0 3vw 0 3vw;
+    }
+
+    .aside {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width : 510px) {
+    .main-container {
+        grid-template-areas:
+            'h h h h h h h h h h h h'
+            'a a a a a a a a a a a a'
+            'b b b b b b b b b b b b';
+        padding: 0 5vw 0 5vw;
+    }
 }
